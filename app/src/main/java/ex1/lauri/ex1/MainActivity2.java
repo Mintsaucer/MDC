@@ -1,8 +1,13 @@
 package ex1.lauri.ex1;
 
-/**
- * Created by Lauri on 29.8.2017.
- */
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
-public class MainActivity2 {
+public class MainActivity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main22);
+    }
 }
